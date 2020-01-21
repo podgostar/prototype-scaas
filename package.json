@@ -1,0 +1,33 @@
+{
+  "name": "oracle-as-payment-channel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "bunyan": "^1.8.12",
+    "chalk": "^2.4.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "eth-sig-util": "^2.1.1",
+    "ethereumjs-util": "^6.1.0",
+    "express": "~4.16.0",
+    "fastify": "^2.4.1",
+    "http-errors": "~1.6.2",
+    "ipfs-http-client": "^29.1.1",
+    "jade": "^1.11.0",
+    "log4js": "^4.3.1",
+    "mocha": "^5.2.0",
+    "morgan": "~1.9.0",
+    "redis": "^2.8.0",
+    "should": "^13.2.3",
+    "supertest": "^3.3.0",
+    "truffle-contract": "^3.0.7",
+    "truffle-hdwallet-provider": "^1.0.5",
+    "web3": "^1.0.0-beta.36"
+  }
+}
