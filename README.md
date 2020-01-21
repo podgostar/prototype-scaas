@@ -14,7 +14,7 @@ Running REDIS database instance
 Clone this repo:
 
 ```
-git clone URI
+git clone https://github.com/podgostar/prototype_scaas
 ```
 
 Inside folder, run:
